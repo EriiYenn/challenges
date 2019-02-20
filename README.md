@@ -1,7 +1,7 @@
 # Welcome to **Dauntless Challenges Github** :star2:
 
 Founded in July 2018 by these lads:
-- **EriiYenn [Melioo]** :snowflake:
+- **EriiYenn** :snowflake:
 - **Syraleaf** :zap:
 - **RiddleX** :question:
 
