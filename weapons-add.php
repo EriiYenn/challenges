@@ -6,12 +6,12 @@ session_start();
 
 // If User is logged => redirect to tavern.php and announce it
 
- if ( !isset($_SESSION['user']) ) {
-  $_SESSION['logged'] = 1;
-  header("Location: tavern.php");
-  echo "<meta http-equiv='refresh' content='0; url=tavern.php'>";
-  exit;
- }
+if (!isset($_SESSION['user'])) {
+	$_SESSION['logged'] = 1;
+	header("Location: tavern.php");
+	echo "<meta http-equiv='refresh' content='0; url=tavern.php'>";
+	exit;
+}
 
 require_once 'inc.php';
 
@@ -23,28 +23,18 @@ HelpButton();
 pageFade();
 
 
-if( isset($_POST['Send']) ) {
+if (isset($_POST['Send'])) {
 	$conn = connect_db();
 
-		$sql = "INSERT INTO `weapons` (name,img,note) VALUES ('". $_POST['name'] ."', '". $_POST['image'] ."', '". htmlspecialchars($_POST['note']) ."')";
-		$res = mysqli_query($conn, $sql);
+	$sql = "INSERT INTO `weapons` (name,img,note) VALUES ('" . $_POST['name'] . "', '" . $_POST['image'] . "', '" . htmlspecialchars($_POST['note']) . "')";
+	$res = mysqli_query($conn, $sql);
 
-if ($res) {
-	echo '<script>
-	swal({
-	 title: "Successfully added!!",
-	text: "Weapon has been added without any problem!",
-	type: "success",
-	showConfirmButton: false,
-	timer: 1990
-	});
-	</script>';
+	if ($res) {
 
-	echo "<meta http-equiv='refresh' content='2; url=weapons-add.php'>";
+		PopUpInfo("Successfully Added!", 1990, "");
 
-   } else {
-    mysqli_error($conn);
-   }
+		echo "<meta http-equiv='refresh' content='2; url=weapons-add.php'>";
+	} else mysqli_error($conn);
 
 	mysqli_close($conn);
 }
@@ -53,55 +43,53 @@ if ($res) {
 ?>
 
 <script>
-
-	$(function() {
-		$source=$("#name");
-		$output=$("#result");
-		$source.keyup(function() {
-			$output.text($source.val());
-		});
-	});
-
+    $(function() {
+        $source = $("#name");
+        $output = $("#result");
+        $source.keyup(function() {
+            $output.text($source.val());
+        });
+    });
 </script>
 
 
 
 <div class="w3-row w3-text-light-grey Oswald">
 
-<p class="web-feature-title w3-center">Weapon Adding</p>
+    <p class="web-feature-title w3-center">Weapon Adding</p>
 
-<form method="post" action="">
-	
-	<div style="margin-top: -2%;">
+    <form method="post" action="">
 
-	<div class="w3-half pl-25_">
-	<b><label class="fs-1p5vw" for="name">Weapon Name: </label></b>
-	<input type="text" class="web-feature-form-element w3-input w3-animate-input w3-transparent w3-text-light-grey w3-center w3-margin-top" placeholder="Fill in the Name..." name="name" id="name" required />
+        <div style="margin-top: -2%;">
 
-	<br /><br />
-	<b><label class="fs-1p5vw" for="image">Image Link: </label></b>
-	<input type="text" class="web-feature-form-element w3-input w3-animate-input w3-transparent w3-text-light-grey w3-center w3-margin-top" placeholder="Fill in the Image Link..." name="image" id="image" />
-	</div>
-	
-	<div class="w3-half pl-5_">
-	<b><label for="note" class="w3-text-light-grey fs-1p5vw">Weapon Description: </label></b><br />
-	<textarea class="web-feature-note w3-transparent w3-text-light-grey w3-border-0 w3-leftbar" onKeyDown="limitText(this.form.note,this.form.countdown,255);" 
-onKeyUp="limitText(this.form.note,this.form.countdown,255);" name="note" id="note"></textarea>
-	<input class="w3-input w3-transparent w3-text-light-grey w3-center w-10_" name="countdown" value="255" /> characters left
-	</div>
+            <div class="w3-half pl-25_">
+                <b><label class="fs-1p5vw" for="name">Weapon Name: </label></b>
+                <input type="text" class="web-feature-form-element w3-input w3-animate-input w3-transparent w3-text-light-grey w3-center w3-margin-top" placeholder="Fill in the Name..." name="name" id="name" required />
+
+                <br /><br />
+                <b><label class="fs-1p5vw" for="image">Image Link: </label></b>
+                <input type="text" class="web-feature-form-element w3-input w3-animate-input w3-transparent w3-text-light-grey w3-center w3-margin-top" placeholder="Fill in the Image Link..." name="image" id="image" />
+            </div>
+
+            <div class="w3-half pl-5_">
+                <b><label for="note" class="w3-text-light-grey fs-1p5vw">Weapon Description: </label></b><br />
+                <textarea class="web-feature-note w3-transparent w3-text-light-grey w3-border-0 w3-leftbar" onKeyDown="limitText(this.form.note,this.form.countdown,255);" onKeyUp="limitText(this.form.note,this.form.countdown,255);" name="note" id="note"></textarea>
+                <input class="w3-input w3-transparent w3-text-light-grey w3-center w-10_" name="countdown" value="255" /> characters left
+            </div>
 
 
-	<div class='web-feature-buttons w3-center'>
-		<input type='submit' value='Add' name='Send' class='w3-btn w3-transparent w3-text-lime w3-border w3-border-lime w3-padding-large' />
-        <input type='reset' value='Reset' class='w3-btn w3-transparent w3-text-red w3-border w3-border-red w3-padding-large ml-5_' />
-	</div>
+            <div class='web-feature-buttons w3-center'>
+                <input type='submit' value='Add' name='Send' class='w3-btn w3-transparent w3-text-lime w3-border w3-border-lime w3-padding-large' />
+                <input type='reset' value='Reset' class='w3-btn w3-transparent w3-text-red w3-border w3-border-red w3-padding-large ml-5_' />
+            </div>
 
-	</div>
+        </div>
 
-</form>
+    </form>
 
 </div>
 
 
 </body>
-</html>
+
+</html> 

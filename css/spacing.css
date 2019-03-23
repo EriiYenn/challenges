@@ -1,175 +1,185 @@
 /* Custom Spacing Styles */
 
-
-
 .d-none {
-    display: none;
+  display: none;
 }
 
 .o-none {
-    outline: none;
+  outline: none;
+}
+
+span.pos-fixed {
+  position: fixed;
 }
 
 .h-100_ {
-    height: 100%;
+  height: 100%;
 }
 
 .w-10_ {
-    width: 10%;
+  width: 10%;
 }
 
 .w-70_ {
-    width: 70%;
+  width: 70%;
 }
 
 .w-100_ {
-    width: 100%;
+  width: 100%;
 }
 
 .w-25_ {
-    width: 25%;
+  width: 25%;
 }
 
 .w-45_ {
-    width: 45%;
+  width: 45%;
 }
 
 .mt-0p5_ {
-    margin-top: 0.5%;
+  margin-top: 0.5%;
 }
 
 .mt-2_ {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .mt-4_ {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 .mt-5_ {
-    margin-top: 5%;
+  margin-top: 5%;
+}
+
+.mt-8_ {
+  margin-top: 8%;
 }
 
 .mt-10_ {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .mt-15_ {
-    margin-top: 15%;
+  margin-top: 15%;
+}
+
+.mt-25_ {
+  margin-top: 25%;
 }
 
 .ml-2_ {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .ml-4_ {
-    margin-left: 4%;
+  margin-left: 4%;
 }
 
 .ml-5_ {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 
 .ml-10_ {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 .ml-15_ {
-    margin-left: 15%;
+  margin-left: 15%;
 }
 
 .m-auto {
-    margin: auto;
+  margin: auto;
 }
 
 .m-0 {
-    margin: 0;
+  margin: 0;
 }
 
 .m-1-0_ {
-    margin: 1% 0;
+  margin: 1% 0;
 }
 
 .m-2_ {
-    margin: 2%;
+  margin: 2%;
 }
 
 .mb-0 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .mb-2_ {
-    margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 .mb-5_ {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .mb-10_ {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .p-5_ {
-    padding: 5%;
+  padding: 5%;
 }
 
 .p-0-2_ {
-    padding: 0 2%;
+  padding: 0 2%;
 }
 
 .pr-10_ {
-    padding-right: 10%;
+  padding-right: 10%;
 }
 
 .pl-5_ {
-    padding-left: 5%;
+  padding-left: 5%;
 }
 
 .pl-25_ {
-    padding-left: 25%;
+  padding-left: 25%;
 }
 
 .w-4_ {
-    width: 4%;
+  width: 4%;
 }
 
 .fs-0p5vw {
-    font-size: 0.5vw;
+  font-size: 0.5vw;
 }
 
 .fs-0p75vw {
-    font-size: 0.75vw;
+  font-size: 0.75vw;
 }
 
 .fs-0p9vw {
-    font-size: 0.9vw;
+  font-size: 0.9vw;
 }
 
 .fs-1vw {
-    font-size: 1vw;
+  font-size: 1vw;
 }
 
 .fs-1p25vw {
-    font-size: 1.25vw;
+  font-size: 1.25vw;
 }
 
 .fs-1p5vw {
-    font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 .fs-1p75vw {
-    font-size: 1.75vw;
+  font-size: 1.75vw;
 }
 
 .fs-2vw {
-    font-size: 2vw;
+  font-size: 2vw;
 }
 
 .fs-2p5vw {
-    font-size: 2.5vw;
+  font-size: 2.5vw;
 }
 
 .fs-3vw {
-    font-size: 3vw;
+  font-size: 3vw;
 }

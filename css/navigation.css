@@ -1,100 +1,97 @@
 /* Navigation Bar style */
 
 .web-bar {
-    border-radius: 50px;
-    width: 85%;
-    height: 6vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
+  border-radius: 50px;
+  width: 85%;
+  height: 6vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
 }
 
 .web-bar-div {
-    position: fixed;
-    height: 20%;
-    margin: 0;
-    padding: 0;
-    z-index: 100;
+  position: fixed;
+  height: 20%;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
 }
 
 .web-search-bar {
-    width: 15%;
-    height: 100%;
-    margin-top: 8px;
-    font-size: 1vw;
+  width: 15%;
+  height: 100%;
+  margin-top: 8px;
+  font-size: 1vw;
 }
 
 .web-bar-logo {
-    width: 5vw;
-    position: absolute;
-    z-index: 99;
-    left: 8vw;
-    top: 1vh;
-    outline: none;
+  width: 5vw;
+  position: absolute;
+  z-index: 99;
+  left: 8vw;
+  top: 1vh;
+  outline: none;
 }
 
 @media only screen and (max-height: 768px) {
-
-    .web-bar-logo {
-        top: 2vh;
-    }
-
+  .web-bar-logo {
+    top: 2vh;
+  }
 }
 
-
 .web-bar-item {
-    height: 100%;
-    margin-top: 2px;
-    font-size: 1.25vw;
+  height: 100%;
+  margin-top: 2px;
+  font-size: 1.25vw;
 }
 
 .web-bar-home {
-    border-radius: 50px 0px 0px 50px;
-    height: 100%;
+  border-radius: 50px 0px 0px 50px;
+  height: 100%;
 }
 
 .web-bar-title {
-    width: 8%;
-    height: 100%;
-    margin-left: 50%;
-    margin-top: -0.35vw;
-    font-size: 1vw;
+  width: 8%;
+  height: 100%;
+  margin-left: 50%;
+  margin-top: -0.35vw;
+  font-size: 1vw;
 }
 
 .web-bar-divider {
-    height: 80%;
-    margin-top: 5px;
+  height: 80%;
+  margin-top: 5px;
 }
 
 .web-bar-bell {
-    font-size: 1.5vw;
-    margin-top: -5px;
+  font-size: 1.5vw;
+  margin-top: -5px;
 }
 
 .web-bar-money {
-    margin-top: 5px;
-    margin-left: 2%;
+  margin-top: 5px;
+  margin-left: 2%;
 }
 
 .web-bar-money-text {
-    font-size: 1.25vw;
-    margin-left: 5%;
-    margin-top: 0;
+  font-size: 1.25vw;
+  margin-left: 5%;
+  margin-top: 0;
 }
 
 .web-bar-log-button {
-    border-radius: 0px 60px 60px 0px;
-    height: 100%;
+  border-radius: 0px 60px 60px 0px;
+  height: 100%;
 }
 
 .web-bar-log-text {
-    width: 8%;
-    height: 100%;
-    margin-top: 3px;
-    margin-left: 8%;
-    font-size: 1.25vw;
+  width: 8%;
+  height: 100%;
+  margin-top: 3px;
+  margin-left: 8%;
+  font-size: 1.25vw;
 }
 
 .web-bar-p-b {
-    padding-bottom: 8%;
+  padding-bottom: 8%;
 }

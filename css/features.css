@@ -1,75 +1,75 @@
 /* Feature Styles */
 
 .web-feature-title {
-    margin-top: -4%;
-    font-size: 5vw;
+  margin-top: -4%;
+  font-size: 5vw;
 }
 
 .web-feature-title-edit {
-    margin-top: -2%;
-    font-size: 5vw;
+  margin-top: -2%;
+  font-size: 5vw;
 }
 
 .web-feature-form-element {
-    width: 70%;
-    max-width: 90%;
-    font-size: 1.25vw;
+  width: 70%;
+  max-width: 90%;
+  font-size: 1.25vw;
 }
 
 .web-feature-note {
-    width: 50%;
-    resize: none;
-    height: 14rem;
-    padding-left: 2%;
-    font-size: 1vw;
+  width: 50%;
+  resize: none;
+  height: 14rem;
+  padding-left: 2%;
+  font-size: 1vw;
 }
 
 .web-feature-buttons {
-    margin-top: 5%;
-    font-size: 1.5vw;
+  margin-top: 5%;
+  font-size: 1.5vw;
 }
 
 .web-feature-single-div {
-    margin-left: 30%;
-    margin-top: -2%;
+  margin-left: 30%;
+  margin-top: -2%;
 }
 
 .web-feature-single-form-element {
-    width: 30%;
-    max-width: 40%;
-    font-size: 1.25vw;
+  width: 30%;
+  max-width: 40%;
+  font-size: 1.25vw;
 }
 
 .web-feature-single-note {
-    width: 40%;
-    resize: none;
-    height: 10rem;
-    padding-left: 2%;
-    font-size: 1vw;
+  width: 40%;
+  resize: none;
+  height: 10rem;
+  padding-left: 2%;
+  font-size: 1vw;
 }
 
 .web-feature-single-buttons {
-    margin-top: 4%;
-    margin-left: -50%;
-    font-size: 1.5vw;
+  margin-top: 4%;
+  margin-left: -50%;
+  font-size: 1.5vw;
 }
 
 .web-feature-live-div {
-    width: 20%;
-    margin-left: 20%;
+  width: 20%;
+  margin-left: 20%;
 }
 
 .web-feature-live {
-    font-size: 1.5vw;
-    margin-left: -25%;
+  font-size: 1.5vw;
+  margin-left: -25%;
 }
 
 .web-feature-live-title {
-    margin-top: -13%;
-    width: 60%;
+  margin-top: -13%;
+  width: 60%;
 }
 
 .web-feature-titles-div {
-    margin-left: 20%;
-    margin-top: -8%;
+  margin-left: 20%;
+  margin-top: -8%;
 }

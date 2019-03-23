@@ -6,11 +6,11 @@ session_start();
 
 // If User is logged => redirect to tavern.php and announce it
 
- if ( isset($_SESSION['user']) ) {
-  $_SESSION['logged'] = 1;
-  header("Location: tavern.php");
-  exit;
- }
+if (isset($_SESSION['user'])) {
+    $_SESSION['logged'] = 1;
+    header("Location: tavern.php");
+    exit;
+}
 
 require_once 'inc.php';
 
@@ -29,4 +29,5 @@ Landing();
 
 
 </body>
-</html>
+
+</html> 

@@ -1,47 +1,42 @@
 /* Background Styles */
 
-@media only screen and (max-width:600px) {
-    .bgimg_index {
-        height: calc(100vh - 56px);
-        height: -moz-calc(100vh - 56px);
-        height: -webkit-calc(100vh - 56px);
-    }
+@media only screen and (max-width: 600px) {
+  .bgimg_index {
+    height: calc(100vh - 56px);
+    height: -moz-calc(100vh - 56px);
+    height: -webkit-calc(100vh - 56px);
+  }
 }
-
-
-
-
 
 .badgeBg {
-    min-height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 2%;
-    margin-top: -2px;
-    margin-left: -18px;
-    border-radius: 25px 0 25px 0;
-    border: 2px solid black;
-    padding: 1%;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2%;
+  margin-top: -2px;
+  margin-left: -18px;
+  border-radius: 25px 0 25px 0;
+  border: 2px solid black;
+  padding: 1%;
 }
 
-
 .bgimg_index {
-    background-image: url('../images/index_proto.jpg');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/index_proto.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgimg_index_logged {
-    background-image: url('../images/tavern.png');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/tavern.png");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*.bgimg_about {
@@ -54,46 +49,46 @@
 }*/
 
 .bgimg_login {
-    background-image: url('../images/login-2.jpg');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/login-2.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgimg_support {
-    background-image: url('../images/support.jpg');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/support.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgimg_public_profile {
-    background-image: url('../images/public_profile.jpg');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/public_profile.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgimg_coming {
-    background-image: url('../images/coming.jpg');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/coming.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgimg_challenges {
-    background-image: url('../images/index_proto.jpg');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/index_proto.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,70 +1,64 @@
 /* Brand Colors */
 
 .brand-dark-blue {
-    background-color: #1C2533;
+  background-color: #1c2533;
 }
 
 .brand-light-blue {
-    background-color: #267191;
+  background-color: #267191;
 }
 
 .brand-red {
-    background-color: #aa0909;
+  background-color: #aa0909;
 }
 
 .brand-warning {
-    background-color: #FE840E;
+  background-color: #fe840e;
 }
 
-
-
 /* ------------------------------ */
-
 
 /* Custom CSS for Elements */
 
 .diff_easy {
-    background-color: #267191;
+  background-color: #267191;
 }
 
 .diff_medium {
-    background-color: #524d68;
+  background-color: #524d68;
 }
 
 .diff_hard {
-    background-color: #78313D;
+  background-color: #78313d;
 }
 
 .diff_hard_plus {
-    background-color: #b31919;
+  background-color: #b31919;
 }
 
-
-
 /* ------------------------------ */
-
 
 /* Toasts and Misc. colors */
 
 .toast_success {
-    background-color: mediumseagreen;
-    color: #003311;
+  background-color: mediumseagreen;
+  color: #003311;
 }
 
 .toast_deny {
-    background-color: #993333;
-    color: #330000;
+  background-color: #993333;
+  color: #330000;
 }
 
 .midnight-blue {
-    color: #fff;
-    background-color: #2c3e50
+  color: #fff;
+  background-color: #2c3e50;
 }
 
 .xp {
-    background-color: #b3b3b3;
+  background-color: #b3b3b3;
 }
 
 .ct {
-    background-color: #cca300;
+  background-color: #cca300;
 }
